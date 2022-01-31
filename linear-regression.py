@@ -6,7 +6,7 @@ def gradient_descent(x0, x1, x2, y):
     n = len(x0)
     learning_rate = 0.0000000005
 
-    for i in range(iterations):
+    for z in range(iterations):
         theta0_gradient = theta1_gradient = theta2_gradient = cost = 0
 
         for i in range(n):
